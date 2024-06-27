@@ -1,6 +1,8 @@
 package demo
 
-import "net/http"
+import (
+	"net/http"
+)
 
 func Demo() {
 	fs := http.FileServer(http.Dir("/Users/zhaozephyr"))
